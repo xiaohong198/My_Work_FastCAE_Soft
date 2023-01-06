@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DISO_FILE_1.0>
+    <Geometry>
+        <GeoSets>
+            <GeoSet ID="17" Visible="True">
+                <Name>Cut_17</Name>
+                <Parameter BoolType="Cut" Type="MakeBoolOperation">
+                    <Body1>16</Body1>
+                    <BodyIndex1>0</BodyIndex1>
+                    <Body2>4</Body2>
+                    <BodyIndex2>0</BodyIndex2>
+                </Parameter>
+                <SubSet ID="16" Visible="False">
+                    <Name>Cut_16</Name>
+                    <Parameter BoolType="Cut" Type="MakeBoolOperation">
+                        <Body1>15</Body1>
+                        <BodyIndex1>0</BodyIndex1>
+                        <Body2>2</Body2>
+                        <BodyIndex2>0</BodyIndex2>
+                    </Parameter>
+                </SubSet>
+                <SubSet ID="4" Visible="True">
+                    <Name>Cylinder_4</Name>
+                    <Parameter Name="Cylinder_4" Type="CreateCylinder">
+                        <Location>0,100,0</Location>
+                        <Radius>100</Radius>
+                        <Length>50</Length>
+                        <Direction>0,0,1</Direction>
+                    </Parameter>
+                </SubSet>
+            </GeoSet>
+        </GeoSets>
+    </Geometry>
+    <Plugins/>
+</DISO_FILE_1.0>
